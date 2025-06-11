@@ -35,7 +35,7 @@ export default function MainContent() {
                     />
                 </motion.div>
                 <h1 className="text-4xl md:text-5xl font-bold text-pink-600 mb-4 relative z-10">
-                    Our Special Story
+                    May be your best birthday wish ever.
                 </h1>
                 <div className="text-2xl md:text-3xl text-purple-700 mb-8 relative z-10">
                     Hey Cutiepie, you are<br />my<FlipWords words={['sunshine', 'soulmate', 'everything', 'love', 'world']} className="text-nowrap" />
@@ -46,7 +46,7 @@ export default function MainContent() {
                     className="bg-pink-500 text-white px-6 py-3 rounded-full text-lg shadow-btn hover:bg-pink-600 transition-colors duration-300"
                     onClick={nextPage}
                 >
-                    Open Our Story
+                    More surprise ahead click me
                 </motion.button>
             </div>
         </StoryPage>,
@@ -56,12 +56,12 @@ export default function MainContent() {
             <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">Our Journey</h2>
             <div className="space-y-4 flex-1 overflow-y-auto overflow-x-hidden rounded-xl custom-scrollbar">
                 {[
-                    { date: '14 February, 2022', event: 'Our Journey Began', emoji: '❤️' },
-                    { date: '1 March, 2022', event: 'First Movie Together', emoji: '🎬' },
-                    { date: '1 March, 2022', event: 'First Hug', emoji: '🤗' },
-                    { date: '5 May, 2022', event: 'First Trip Together', emoji: '✈️' },
-                    { date: '10 August, 2022', event: 'First Fight & Patch-up', emoji: '💬' },
-                    { date: '25 December, 2022', event: 'First Christmas Together', emoji: '🎄' },
+                    { event:"To the queen of my crazy crew — happy birthday, you beautiful soul!" , emoji: '❤️' },
+                    {  event: "Born to shine, blessed to slay — happy birthday, my girl!", emoji: '🌟' },
+                    {  event: "Here’s to more late-night talks and endless laughs!" , emoji: '🤗' },
+                    {  event: "In the book of life, you're my favorite rhyme — happy birthday, sunshine.", emoji: '📖' },
+                    {  event: "Your smile is a verse, your soul a song — may your day be joyful, all day long." , emoji: '💬' },
+                    {  event: "In life’s long poem, you're my sweetest line — happy birthday, dearest friend of mine." , emoji: '🎄' },
                 ]
                     .map((item, index) => (
                         <motion.div
