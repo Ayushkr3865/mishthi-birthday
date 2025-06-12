@@ -19,7 +19,7 @@ export default function SecretCodeCard({ onCorrect }) {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        if (code === '123456') {
+        if (code === 'Bond') {
             onCorrect()
         } else {
             setError("Oops! That’s not the right code.")
