@@ -53,7 +53,7 @@ export default function MainContent() {
 
         // Our Journey Page
         <StoryPage key="journey" backgroundColor="bg-gradient-to-br from-blue-200 to-green-200">
-            <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">Our Journey</h2>
+            <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">Best Wishes</h2>
             <div className="space-y-4 flex-1 overflow-y-auto overflow-x-hidden rounded-xl custom-scrollbar">
                 {[
                     { event:"To the queen of my crazy crew — happy birthday, you beautiful soul!" , emoji: '❤️' },
@@ -62,7 +62,7 @@ export default function MainContent() {
                     {  event: "In the book of life, you're my favorite rhyme — happy birthday, sunshine.", emoji: '📖' },
                     {  event: "Your smile is a verse, your soul a song — may your day be joyful, all day long." , emoji: '💬' },
                     {  event: "In life’s long poem, you're my sweetest line — happy birthday, dearest friend of mine." , emoji: '🎄' },
-                    {  event: "Lines for you Mujhe toh abhi bhi Lagta Hai Koi khwab hai tu !! Teri Tulna kisse karu Kisi heere se bhi nayaab hai tu" , emoji: '💎' },
+                    {  event: "Lines for you: Mujhe toh abhi bhi Lagta Hai Koi khwab hai tu !! Teri Tulna kisse karu Kisi heere se bhi nayaab hai tu" , emoji: '💎' },
                 ]
                     .map((item, index) => (
                         <motion.div
