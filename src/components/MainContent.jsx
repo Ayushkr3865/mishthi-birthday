@@ -92,7 +92,7 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
                         <TimeCounter
-                            startDate="2024-11-"
+                            startDate="2024-11-20"
                             label="As Friends"
                         />
                     </motion.div>
@@ -102,7 +102,7 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
                         <TimeCounter
-                            startDate="2025-06-13"
+                            startDate="2025-06-12"
                             label="As a special one"
                         />
                     </motion.div>
