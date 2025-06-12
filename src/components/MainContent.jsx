@@ -92,7 +92,7 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
                         <TimeCounter
-                            startDate="2019-10-23"
+                            startDate="2024-11-"
                             label="As Friends"
                         />
                     </motion.div>
@@ -102,8 +102,8 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
                         <TimeCounter
-                            startDate="2022-01-14"
-                            label="As a Couple"
+                            startDate="2025-06-13"
+                            label="As a special one"
                         />
                     </motion.div>
                 </div>
@@ -160,7 +160,7 @@ export default function MainContent() {
             <div className="bg-white rounded-xl p-6 shadow-md overflow-y-auto flex-1 custom-scrollbar">
                 <div className="relative z-10">
                     <div className="text-gray-700 text-lg leading-relaxed mb-4">
-                        <p>From the very first moment our paths crossed, life has felt more beautiful, more exciting, and more meaningful. Every smile, every conversation, and every memory we've shared has built a story so precious that no words can truly capture it. I feel incredibly grateful to have someone like you by my side, someone who understands me without even saying a word, someone who brings light even on the darkest days. Through ups and downs, laughter and tears, you've been a constant source of strength and happiness. As we continue to write our journey together, I want you to always remember that you are deeply cherished, endlessly appreciated, and truly loved. Here's to the countless memories we've yet to create and the beautiful future that awaits us. You are, and always will be, my favorite part of every day.💖</p>
+                        <p>From the very first moment our paths crossed, life has felt more beautiful, more exciting, and more meaningful. Every smile, every conversation, and every memory we've shared has built a story so precious that no words can truly capture it. I feel incredibly grateful to have someone like you by my side, someone who understands me without even saying a word, someone who brings light even on the darkest days. Through ups and downs, laughter and tears, you've been a constant source of strength and happiness. We continue to write our journey together, I want you to always remember that you are deeply cherished, endlessly appreciated, and truly loved. Here's to the countless memories we've yet to create and the beautiful future that awaits us. You are, and always will be, my favorite part of every day.💖</p>
                     </div>
                     <p className="text-right text-rose-600 font-semibold">
                         Forever yours,<br />
@@ -261,7 +261,7 @@ export default function MainContent() {
                             height={250}
                             className="rounded-2xl w-auto h-auto"
                         />
-                        <p className="mt-4 text-center text-gray-700">Moment {selectedImage}</p>
+                        <p className="mt-4 text-center text-gray-700"> {selectedImage}</p>
                     </motion.div>
                 </motion.div>
             )}
