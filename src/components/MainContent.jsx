@@ -102,7 +102,7 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
                         <TimeCounter
-                            startDate="2025-06-12"
+                            startDate="2025-06-13"
                             label="As a special one"
                         />
                     </motion.div>
