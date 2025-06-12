@@ -62,6 +62,7 @@ export default function MainContent() {
                     {  event: "In the book of life, you're my favorite rhyme — happy birthday, sunshine.", emoji: '📖' },
                     {  event: "Your smile is a verse, your soul a song — may your day be joyful, all day long." , emoji: '💬' },
                     {  event: "In life’s long poem, you're my sweetest line — happy birthday, dearest friend of mine." , emoji: '🎄' },
+                    {  event: "Lines for you Mujhe toh abhi bhi Lagta Hai Koi khwab hai tu !! Teri Tulna kisse karu Kisi heere se bhi nayaab hai tu" , emoji: '💎' },
                 ]
                     .map((item, index) => (
                         <motion.div
