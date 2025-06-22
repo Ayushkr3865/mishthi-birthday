@@ -129,7 +129,7 @@ export default function MainContent() {
 
         // Photo Gallery Page
         <StoryPage key="gallery" backgroundColor="bg-gradient-to-br from-blue-50 to-cyan-100">
-            <h2 className="text-3xl font-bold text-indigo-600 mb-6 relative z-10">The Face I’ll Always Smile At (यहां पर आपकी तस्वीरें हो सकती थी।)</h2>
+            <h2 className="text-3xl font-bold text-indigo-600 mb-6 relative z-10">The Face I’ll Always Smile At </h2>
             <div className="flex-1 rounded-2xl overflow-y-auto overflow-x-hidden custom-scrollbar">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 rounded-2xl">
                     {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
@@ -143,7 +143,7 @@ export default function MainContent() {
                         >
                             {/* If you want to show your pics then you can save your pics in public/images folder like this 1.jpg, 2.jpg, 3.jpg then replace the src to this - /images/${i}.jpg */}
                             <Image
-                                src={`https://images.pexels.com/photos/1759823/pexels-photo-1759823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
+                               src={`/images/${i}.jpg`}
                                 alt={`Gallery image ${i}`}
                                 width={330}
                                 height={270}
