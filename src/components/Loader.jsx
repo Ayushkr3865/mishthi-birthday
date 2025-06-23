@@ -30,7 +30,7 @@ export default function Loader({ onFinish }) {
                 <Heart className="w-20 h-20 text-pink-500" fill="currentColor" />
             </motion.div>
             <p className="mt-4 text-xl font-medium text-center px-4 text-gradient">
-                Take a deep breath, my love. A special surprise awaits you...
+                Take a deep breath. A special surprise awaits you...
             </p>
             <div className="w-64 h-2 bg-pink-200 rounded-full mt-4 overflow-hidden">
                 <motion.div

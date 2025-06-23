@@ -38,7 +38,7 @@ export default function MainContent() {
                     May be your best birthday wish ever.
                 </h1>
                 <div className="text-2xl md:text-3xl text-purple-700 mb-8 relative z-10">
-                    Hey Cutiepie, you are<br />my<FlipWords words={['sunshine', 'soulmate', 'everything', 'love', 'world']} className="text-nowrap" />
+                    Hey Cutiepie, you are<br /><FlipWords words={['sunshine', 'everything', 'love', 'world']} className="text-nowrap" />
                 </div>
                 <motion.button
                     whileHover={{ scale: 1.05 }}
@@ -102,10 +102,6 @@ export default function MainContent() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
-                        <TimeCounter
-                            startDate="2025-06-13"
-                            label="As a special one"
-                        />
                     </motion.div>
                 </div>
                 <motion.div
@@ -163,10 +159,7 @@ export default function MainContent() {
                     <div className="text-gray-700 text-lg leading-relaxed mb-4">
                         <p>From the very first moment our paths crossed, life has felt more beautiful, more exciting, and more meaningful. Every smile, every conversation, and every memory we've shared has built a story so precious that no words can truly capture it. I feel incredibly grateful to have someone like you by my side, someone who understands me without even saying a word, someone who brings light even on the darkest days. Through ups and downs, laughter and tears, you've been a constant source of strength and happiness. We continue to write our journey together, I want you to always remember that you are deeply cherished, endlessly appreciated, and truly loved. Here's to the countless memories we've yet to create and the beautiful future that awaits us. You are, and always will be, my favorite part of every day. Or haa aap bolte hue achi lagti ho bolti raha karo. Dusro ko buri lagti hongi aapki baatein but I can be your good listner even in your hard time.💖</p>
                     </div>
-                    <p className="text-right text-rose-600 font-semibold">
-                        Forever yours,<br />
-                        Your love❤️
-                    </p>
+                
                 </div>
             </div>
         </StoryPage>,
